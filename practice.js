@@ -44,21 +44,25 @@ function greeting (name) {
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+let newGreeting = function (name) {
+	return `Hello, ${name}`;
+};
 
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+let finalGreeting = (name) => {
+	return `Hello, ${name}`;
+};
 
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries = [ 'apples', 'milk', 'eggs', 'bread' ];
 
 //////////////////PROBLEM 10////////////////////
 
@@ -67,12 +71,17 @@ function greeting (name) {
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = {
+	name    : 'georgie',
+	color   : 'brown',
+	age     : 3,
+	goodBoy : true
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 11////////////////////
 
